@@ -1,5 +1,5 @@
-name: Handle issues
-on: issues
+name: Handle manual run
+on: workflow_dispatch
 jobs:
   output-details:
     runs-on: ubuntu-latest
